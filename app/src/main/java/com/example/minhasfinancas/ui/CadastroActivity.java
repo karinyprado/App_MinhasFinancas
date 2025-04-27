@@ -1,3 +1,5 @@
+//Tela para cadastrar novos gastos
+
 package com.example.minhasfinancas.ui;
 
 import androidx.appcompat.app.AppCompatActivity;

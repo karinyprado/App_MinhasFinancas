@@ -1,3 +1,5 @@
+// Modelo de dados do gasto (descrição, valor, categoria, data)
+
 package com.example.minhasfinancas.model;
 
 public class Gasto {

@@ -1,3 +1,6 @@
+//Parte q calcula e mostra o resumo dos gastos por categoria
+
+
 package com.example.minhasfinancas.ui;
 
 import androidx.appcompat.app.AppCompatActivity;

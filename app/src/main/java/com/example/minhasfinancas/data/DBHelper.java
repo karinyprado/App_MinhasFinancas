@@ -1,3 +1,5 @@
+// Conexão com banco SQLite para salvar e recuperar gastos
+
 package com.example.minhasfinancas.data;
 
 import android.content.ContentValues;

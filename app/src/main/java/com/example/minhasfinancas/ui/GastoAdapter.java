@@ -1,3 +1,5 @@
+//Adapter para exibir os gastos num RecyclerView
+
 package com.example.minhasfinancas.ui;
 
 import android.view.LayoutInflater;
