@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="16dp"
     android:layout_width="match_parent"
@@ -9,14 +10,21 @@
         android:id="@+id/btnAdicionar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Adicionar Gasto" />
+        android:background="#9C27B0"
+        android:backgroundTint="#9C27B0"
+        android:text="Novo Gasto"
+        app:iconTint="#9C27B0"
+        app:rippleColor="#9C27B0" />
 
     <Button
         android:id="@+id/btnResumo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Resumo por Categoria"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="8dp"
+        android:background="#9C27B0"
+        android:backgroundTint="#9C27B0"
+        android:text="Total por Categoria"
+        app:iconTint="#9C27B0" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewGastos"

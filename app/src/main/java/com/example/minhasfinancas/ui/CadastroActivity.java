@@ -34,7 +34,7 @@ public class CadastroActivity extends AppCompatActivity {
         spinnerCategoria = findViewById(R.id.spinnerCategoria);
         btnSalvar = findViewById(R.id.btnSalvar);
 
-        String[] categorias = {"Alimentação", "Transporte", "Lazer", "Saúde", "Outros"};
+        String[] categorias = {"Alimentação", "Lazer", "Transporte", "Saúde", "Gastos Pessoais"};
         spinnerCategoria.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, categorias));
 
         btnSalvar.setOnClickListener(view -> {

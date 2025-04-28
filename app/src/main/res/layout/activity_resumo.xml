@@ -8,7 +8,7 @@
         android:id="@+id/txtResumo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Carregando resumo..."
+        android:text="Carregando..."
         android:textSize="18sp" />
 
 </ScrollView>
